@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criptografar Words</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <img src="img/Frame 6.png" alt="">
+    <div class="card">        
+        <div class="card-content">
+          <h2 class="card-title" id="texto" >Nenhuma mensagem encontrada <br> Aguardando a sua mensagem secreta...</h2> 
+          <img id="imgLupa" src="img/boy-lookfor.png" alt="imagem de uma lupa">       
+        </div>
+        <h3 id="mensagemOculta" class="esconder" disabled>Mensagem Copiada</h3>
+        <button class="btnCopia" onclick="mostrar('mensagemOculta')">Copiar</button>
+      </div>
+      <div>
+        <textarea name="" id="" cols="40" rows="3"  sentences placeholder="Digite o seu texto aqui..." ></textarea>
+        
+      </div>
+      <div class="box">
+        <button onclick="chamarDescripotor()" class="crip"> Descriptografar</button>
+        <button onclick="chamarCripto()" class="dis">Criptografar</button>        
+        <p> <strong>Apenas letras minúsculas e sem acento.</strong></p>
+      </div>
+      <footer>
+        <p>&copy; 2024 Alisson Moroni. Moroni Tech Ltda.</p>
+      </footer>
+
+  <script src="app.js"></script>  
+</body>
+</html>
